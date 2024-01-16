@@ -1,0 +1,11 @@
+ # installing winget
+already in built so no need
+winget export -o nameoflist.json # on home 
+winget import -i PATHTOIMPORT.JSON # on dtop
+
+# vscode packages use cmd below to install all in extension.list
+ cat extensions.list |% { code --install-extension $_}
+
+
+
+
